@@ -15,7 +15,7 @@
 auth.languageCode = 'en';
   const provider = new GoogleAuthProvider();
 
-  const googleLogin = document.getElementById("google-login-btn");
+  const googleLogin = document.getElementById("google-Login-btn");
   googleLogin.addEventListener("click", function(){
     signInWithPopup(auth, provider)
     .then((result) => {
